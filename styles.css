@@ -11,6 +11,13 @@ body {
     margin: 0;
     padding: 0;
 }
+header h1, h2, h3 {
+    font-family: 'Dancing Script', cursive;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 
 header {
     background-color: #8aae92; /* Sage green */
