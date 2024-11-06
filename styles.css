@@ -302,14 +302,14 @@ nav a {
 /* Main Header Styling */
 .intro h2 {
     font-size: 80px; /* Doubled size */
-    margin-top: 20px; /* Adds space above to lower it */
+    margin-top: 30px; /* Adds space above to lower it */
     color: #4d665e;
     font-family: 'Dancing Script', cursive;
 }
 
 /* New Tagline Styling */
 .intro p {
-    font-size: 24px;
+    font-size: 20px;
     color: #6d6875;
     margin-top: 10px;
     font-style: italic;
