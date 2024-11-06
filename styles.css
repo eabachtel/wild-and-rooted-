@@ -243,3 +243,17 @@ nav a {
     width: 30px;
     height: 30px;
 }
+/* About Page Centering */
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Light background with opacity */
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-container h2, .about-container h3 {
+    color: #4d665e; /* Darker green for headings */
+}
