@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Wild & Rooted</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Wild & Rooted</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="about.html">About</a>
+            <a href="care.html">Care Tips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Checkout</h2>
+        
+        <!-- Order Summary -->
+        <p><strong>Plant:</strong> Aloe Vera</p>
+        <p><strong>Quantity:</strong> 3</p>
+        <p><strong>Shipping:</strong> Expedited</p>
+        <p><strong>Total:</strong> $29.00</p>
+
+        <!-- PayPal Checkout -->
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+            <input type="hidden" name="cmd" value="_cart">
+            <input type="hidden" name="business" value="yourpaypal@example.com">
+            <input type="hidden" name="item_name" value="Aloe Vera">
+            <input type="hidden" name="amount" value="8.00">
+            <input type="hidden" name="quantity" value="3">
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="hidden" name="shipping" value="5.00">
+            <button type="submit">Pay with PayPal</button>
+        </form>
+    </main>
+</body>
+</html>
