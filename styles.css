@@ -1,130 +1,72 @@
-/* Import Dancing Script font */
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+/* styles.css */
 
-/* General Styling */
 body {
-    font-family: Arial, sans-serif;
-    color: #3a5a40;
-    background-color: #f0f4e3;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    background-color: #f9f5f0; /* Light beige background */
     margin: 0;
     padding: 0;
 }
 
-/* Header */
 header {
+    background-color: #b5838d; /* Soft brown/pinkish taupe */
+    color: #fff;
     text-align: center;
-    background-color: #d4e3d6;
-    padding: 40px;
-    background-image: url('background-leaves.jpg');
-    background-size: cover;
-    background-position: center;
+    padding: 20px;
 }
 
 header h1 {
     font-family: 'Dancing Script', cursive;
-    font-size: 3.5em;
-    color: #3a5a40;
+    font-size: 40px;
     margin: 0;
 }
 
-header p {
-    font-size: 1.3em;
-    color: #4a7040;
-    margin-top: 10px;
-}
-
-/* Navigation */
-nav {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    background-color: #bfc9a9;
-    padding: 10px;
-}
-
 nav a {
-    color: #3a5a40;
+    color: #fff;
     text-decoration: none;
-    font-weight: bold;
-    font-size: 1.1em;
+    margin: 0 15px;
+    font-size: 18px;
 }
 
-/* Main Content */
 main {
     padding: 20px;
 }
 
-/* Section Titles */
-section h2 {
+h2, h3 {
     font-family: 'Dancing Script', cursive;
-    font-size: 2.5em;
-    color: #52796f;
+    color: #6d6875; /* Sage green for accents */
 }
 
-/* Gallery */
-.gallery {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.plant-item {
+.intro {
     text-align: center;
-    width: 200px;
-    background-color: #eef3e9;
-    border-radius: 10px;
-    padding: 15px;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
-}
-
-.plant-item img {
-    width: 100%;
-    border-radius: 8px;
-    border: 1px solid #8a9a5b;
-    margin-bottom: 10px;
-}
-
-button {
-    display: inline-block;
-    padding: 8px 15px;
-    margin: 5px;
-    font-size: 0.9em;
-    color: #fff;
-    background-color: #6c8b5a;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #52796f;
-}
-
-/* Care Tips */
-.care-tip {
-    background-color: #eef3e9;
-    border-left: 5px solid #8a9a5b;
-    padding: 15px;
-    margin: 20px 0;
-    border-radius: 5px;
-}
-
-/* Footer */
-footer {
-    background-color: #bfdcbd;
+    background: #ffffff;
     padding: 20px;
-    text-align: center;
+    border: 2px solid #b5838d;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-footer .social a {
-    color: #3a5a40;
+a {
+    color: #6d6875; /* Sage green */
     text-decoration: none;
-    margin: 0 15px;
-    font-size: 1.3em;
 }
 
-footer p {
-    font-size: 0.9em;
-    color: #4a7040;
+a:hover {
+    text-decoration: underline;
+}
+
+/* Specific styling for plant fact and care tips sections */
+
+.plant-info {
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    border: 1px solid #6d6875;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+
+.plant-info h3 {
+    color: #b5838d;
 }
