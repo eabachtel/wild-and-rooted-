@@ -268,3 +268,35 @@ nav a {
 .about-container h2, .about-container h3 {
     color: #4d665e; /* Darker green for headings */
 }
+/* About Page Centering and Background Styling */
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-container h2 {
+    color: #4d665e;
+}
+
+/* Dedication Section Styling */
+.dedication {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    color: #6d6875; /* A soft, lighter color */
+    font-style: italic;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.dedication p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    color: #7a7a7a; /* Light gray to resemble a "review" feel */
+}
+
