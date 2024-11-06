@@ -181,3 +181,65 @@ nav a {
     font-size: 20px;
     border-radius: 4px;
 }
+/* General Styles with Plant Background */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('https://via.placeholder.com/800x800?text=Background+Plant+Pattern'); /* Replace with your chosen background URL */
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Navigation */
+header {
+    background-color: rgba(138, 174, 146, 0.85); /* Sage green with opacity */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    margin: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Slideshow Styling */
+.slideshow-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.slide {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Plant Product Section */
+.product-item, .plant-info {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    border: 1px solid #8aae92;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Cart Icon */
+.cart-icon img {
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+}
