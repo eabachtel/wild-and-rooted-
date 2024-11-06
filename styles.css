@@ -348,7 +348,7 @@ nav a {
     line-height: 1.5;
     color: #7a7a7a;
 }
-/* Centering Text and Images in Plant Info Boxes */
+/* Centered Content for Plant Information Boxes */
 .plant-info {
     display: flex;
     flex-direction: column;
@@ -362,6 +362,16 @@ nav a {
     max-width: 400px;
     text-align: center;
 }
+
+/* Fixed Image Size for Care Tips Page */
+.plant-info img {
+    width: 200px; /* Set fixed width */
+    height: 150px; /* Set fixed height */
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+}
 /* Centered Container for Shop Page */
 .shop-container {
     display: flex;
@@ -372,7 +382,7 @@ nav a {
 }
 
 /* Product Item Styling */
-.product-item {
+product-item {
     background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
     width: 250px;
@@ -387,8 +397,9 @@ nav a {
 }
 
 .product-item img {
-    width: 100%;
-    height: auto;
+  width: 200px; /* Set fixed width */
+    height: 150px; /* Set fixed height */
+    object-fit: cover;
     border-radius: 4px;
     margin-top: 10px;
 }
