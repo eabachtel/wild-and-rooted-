@@ -3,13 +3,13 @@
 body {
     font-family: 'Montserrat', sans-serif;
     color: #333;
-    background-color: #f9f5f0; /* Light beige background */
+    background-color: #f0f5e9; /* Light greenish cream */
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #b5838d; /* Soft brown/pinkish taupe */
+    background-color: #8aae92; /* Sage green */
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -34,39 +34,28 @@ main {
 
 h2, h3 {
     font-family: 'Dancing Script', cursive;
-    color: #6d6875; /* Sage green for accents */
+    color: #4d665e; /* Darker sage green */
 }
 
-.intro {
-    text-align: center;
-    background: #ffffff;
-    padding: 20px;
-    border: 2px solid #b5838d;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-a {
-    color: #6d6875; /* Sage green */
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* Specific styling for plant fact and care tips sections */
-
-.plant-info {
+.plant-info, .product-item {
     background: #ffffff;
     padding: 20px;
     margin: 20px auto;
     border-radius: 8px;
-    border: 1px solid #6d6875;
+    border: 1px solid #8aae92;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     font-size: 16px;
 }
 
-.plant-info h3 {
-    color: #b5838d;
+button {
+    background-color: #8aae92;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6b8c78; /* Darker green */
 }
