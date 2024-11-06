@@ -58,6 +58,66 @@ button {
 
 button:hover {
     background-color: #6b8c78; /* Darker green */
+}/* styles.css */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    background-color: #f0f5e9; /* Light greenish cream */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8aae92; /* Sage green */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    margin: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+main {
+    padding: 20px;
+}
+
+h2, h3 {
+    font-family: 'Dancing Script', cursive;
+    color: #4d665e; /* Darker sage green */
+}
+
+.plant-info, .product-item {
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    border: 1px solid #8aae92;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+
+button {
+    background-color: #8aae92;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6b8c78; /* Darker green */
 }
 /* General Styles */
 body {
