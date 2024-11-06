@@ -299,4 +299,19 @@ nav a {
     line-height: 1.6;
     color: #7a7a7a; /* Light gray to resemble a "review" feel */
 }
+/* Main Header Styling */
+.intro h2 {
+    font-size: 80px; /* Doubled size */
+    margin-top: 20px; /* Adds space above to lower it */
+    color: #4d665e;
+    font-family: 'Dancing Script', cursive;
+}
+
+/* New Tagline Styling */
+.intro p {
+    font-size: 24px;
+    color: #6d6875;
+    margin-top: 10px;
+    font-style: italic;
+}
 
