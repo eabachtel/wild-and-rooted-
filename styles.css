@@ -362,4 +362,40 @@ nav a {
     max-width: 400px;
     text-align: center;
 }
+/* Centered Container for Shop Page */
+.shop-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Product Item Styling */
+.product-item {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-item h3 {
+    color: #4d665e;
+    font-size: 22px;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.product-item p {
+    font-size: 14px;
+    color: #6d6875;
+    margin-top: 10px;
+}
 
