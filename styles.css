@@ -301,7 +301,7 @@ nav a {
 }
 /* Main Header Styling */
 .intro h2 {
-    font-size: 80px; /* Doubled size */
+    font-size: 60px; /* Doubled size */
     margin-top: 30px; /* Adds space above to lower it */
     color: #4d665e;
     font-family: 'Dancing Script', cursive;
