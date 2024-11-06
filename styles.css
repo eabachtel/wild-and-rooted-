@@ -314,4 +314,52 @@ nav a {
     margin-top: 10px;
     font-style: italic;
 }
+/* White Box Container for Home Page */
+.content-box {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Centering Slideshow */
+.slideshow-container {
+    text-align: center;
+}
+/* Refined Dedication Section Styling */
+.dedication {
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+    color: #6d6875; /* Softer color */
+    font-style: italic;
+    border-top: 1px solid #ddd;
+    margin-top: 15px;
+    padding-top: 15px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dedication p {
+    margin-bottom: 8px;
+    line-height: 1.5;
+    color: #7a7a7a;
+}
+/* Centering Text and Images in Plant Info Boxes */
+.plant-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    border: 1px solid #8aae92;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    text-align: center;
+}
 
