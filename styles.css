@@ -549,3 +549,10 @@ button:hover {
     margin: 0;
     font-size: 28px;
 }
+/* Larger Dancing Script Font for Plant Names */
+.product-item h3, .plant-info h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 26px; /* Adjust as needed */
+    color: #4d665e;
+    margin: 10px 0;
+}
