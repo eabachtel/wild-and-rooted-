@@ -96,7 +96,7 @@ nav a {
     color: #fff;
     text-decoration: none;
     margin: 0 15px;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 main {
@@ -195,7 +195,7 @@ nav a {
 /* General Styles with Plant Background */
 body {
     font-family: 'Montserrat', sans-serif;
-    background-image: "../images\background.jpg"
+    background-image: "images\background.jpg"
     background-size: cover;
     background-attachment: fixed;
     color: #333;
