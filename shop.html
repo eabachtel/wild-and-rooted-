@@ -6,8 +6,6 @@
     <title>Shop - Wild & Rooted</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
 </head>
 <body>
     <header>
@@ -15,80 +13,76 @@
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
-            <a href="care.html">Care Tips
+            <a href="care.html">Care Tips</a>
             <a href="cart.html" class="cart-icon">
-               <i class="fas fa-shopping-cart"></i> <!-- Cart Icon -->
-</a>
-
+                <i class="fas fa-shopping-cart"></i>
+            </a>
         </nav>
     </header>
     <main>
-        <!-- Shop Page Header -->
+        <!-- Dark green boxed header for Shop Page -->
         <div class="section-header">
             <h2>Shop Our Plant Clippings</h2>
-            </div>
-            <div class="shop-container">
-                <!-- Each plant item with purchase options -->
-                <div class="product-item">
-                 <h3>Aloe Vera - $8.00</h3>
+        </div>
+
+        <div class="shop-container">
+            <!-- Aloe Vera Product Item -->
+            <div class="product-item">
+                <span class="stock-status new">New</span>
+                <h3>Aloe Vera - $8.00</h3>
                 <img src="https://via.placeholder.com/200x150" alt="Aloe Vera">
                 <p>Aloe Vera is a hardy succulent known for its soothing gel, perfect for skincare and easy to care for.</p>
-
-                <!-- Purchase Form -->
                 <form action="cart.html" method="post">
                     <label for="quantity-aloe">Quantity (Max 5):</label>
                     <input type="number" id="quantity-aloe" name="quantity" min="1" max="5" required>
-
                     <label for="shipping-aloe">Shipping:</label>
                     <select id="shipping-aloe" name="shipping">
                         <option value="free">Free (Standard Shipping)</option>
                         <option value="expedited">Expedited - $5.00</option>
                         <option value="overnight">Overnight - $15.00</option>
                     </select>
-
                     <button type="submit">Add to Cart</button>
                 </form>
             </div>
 
+            <!-- Snake Plant Product Item -->
             <div class="product-item">
+                <span class="stock-status low-stock">Low in Stock</span>
                 <h3>Snake Plant - $10.00</h3>
                 <img src="https://via.placeholder.com/200x150" alt="Snake Plant">
                 <p>Snake Plant, also called "Mother-in-law’s Tongue," is an air-purifying, low-maintenance plant.</p>
                 <form action="cart.html" method="post">
                     <label for="quantity-snake">Quantity (Max 5):</label>
                     <input type="number" id="quantity-snake" name="quantity" min="1" max="5" required>
-
                     <label for="shipping-snake">Shipping:</label>
                     <select id="shipping-snake" name="shipping">
                         <option value="free">Free (Standard Shipping)</option>
                         <option value="expedited">Expedited - $5.00</option>
                         <option value="overnight">Overnight - $15.00</option>
                     </select>
-
                     <button type="submit">Add to Cart</button>
                 </form>
             </div>
 
+            <!-- Spider Plant Product Item -->
             <div class="product-item">
-                <span class="stock-status new">New</span>
                 <h3>Spider Plant - $7.00</h3>
                 <img src="https://via.placeholder.com/200x150" alt="Spider Plant">
                 <p>A resilient houseplant, the Spider Plant produces baby "pups" that are easy to propagate and share.</p>
                 <form action="cart.html" method="post">
                     <label for="quantity-spider">Quantity (Max 5):</label>
                     <input type="number" id="quantity-spider" name="quantity" min="1" max="5" required>
-
                     <label for="shipping-spider">Shipping:</label>
                     <select id="shipping-spider" name="shipping">
                         <option value="free">Free (Standard Shipping)</option>
                         <option value="expedited">Expedited - $5.00</option>
                         <option value="overnight">Overnight - $15.00</option>
                     </select>
-
                     <button type="submit">Add to Cart</button>
                 </form>
             </div>
 
+            <!-- Peace Lily Product Item -->
             <div class="product-item">
                 <h3>Peace Lily - $9.00</h3>
                 <img src="https://via.placeholder.com/200x150" alt="Peace Lily">
@@ -96,96 +90,91 @@
                 <form action="cart.html" method="post">
                     <label for="quantity-peace">Quantity (Max 5):</label>
                     <input type="number" id="quantity-peace" name="quantity" min="1" max="5" required>
-
                     <label for="shipping-peace">Shipping:</label>
                     <select id="shipping-peace" name="shipping">
                         <option value="free">Free (Standard Shipping)</option>
                         <option value="expedited">Expedited - $5.00</option>
                         <option value="overnight">Overnight - $15.00</option>
                     </select>
-
                     <button type="submit">Add to Cart</button>
                 </form>
             </div>
 
+            <!-- Pothos Product Item -->
             <div class="product-item">
-                <h3>Peace Lily - $9.00</h3>
-                <img src="https://via.placeholder.com/200x150" alt="Peace Lily">
-                <p>The Peace Lily is a beautiful, low-light plant known for its lush foliage and elegant white blooms.</p>
+                <h3>Pothos - $8.00</h3>
+                <img src="https://via.placeholder.com/200x150" alt="Pothos">
+                <p>Pothos is a fast-growing, trailing vine with variegated leaves, ideal for low-light environments.</p>
                 <form action="cart.html" method="post">
-                    <label for="quantity-peace">Quantity (Max 5):</label>
-                    <input type="number" id="quantity-peace" name="quantity" min="1" max="5" required>
-
-                    <label for="shipping-peace">Shipping:</label>
-                    <select id="shipping-peace" name="shipping">
+                    <label for="quantity-pothos">Quantity (Max 5):</label>
+                    <input type="number" id="quantity-pothos" name="quantity" min="1" max="5" required>
+                    <label for="shipping-pothos">Shipping:</label>
+                    <select id="shipping-pothos" name="shipping">
                         <option value="free">Free (Standard Shipping)</option>
                         <option value="expedited">Expedited - $5.00</option>
                         <option value="overnight">Overnight - $15.00</option>
                     </select>
-
                     <button type="submit">Add to Cart</button>
                 </form>
             </div>
+
+            <!-- Purple Heart Product Item -->
             <div class="product-item">
-                <h3>Peace Lily - $9.00</h3>
-                <img src="https://via.placeholder.com/200x150" alt="Peace Lily">
-                <p>The Peace Lily is a beautiful, low-light plant known for its lush foliage and elegant white blooms.</p>
+                <span class="stock-status new">New</span>
+                <h3>Purple Heart - $6.00</h3>
+                <img src="https://via.placeholder.com/200x150" alt="Purple Heart">
+                <p>Known for its striking purple leaves, Purple Heart is easy to care for and adds a pop of color indoors.</p>
                 <form action="cart.html" method="post">
-                    <label for="quantity-peace">Quantity (Max 5):</label>
-                    <input type="number" id="quantity-peace" name="quantity" min="1" max="5" required>
-
-                    <label for="shipping-peace">Shipping:</label>
-                    <select id="shipping-peace" name="shipping">
+                    <label for="quantity-purple">Quantity (Max 5):</label>
+                    <input type="number" id="quantity-purple" name="quantity" min="1" max="5" required>
+                    <label for="shipping-purple">Shipping:</label>
+                    <select id="shipping-purple" name="shipping">
                         <option value="free">Free (Standard Shipping)</option>
                         <option value="expedited">Expedited - $5.00</option>
                         <option value="overnight">Overnight - $15.00</option>
                     </select>
-
                     <button type="submit">Add to Cart</button>
                 </form>
             </div>
+
+            <!-- ZZ Plant Product Item -->
             <div class="product-item">
-                <h3>Peace Lily - $9.00</h3>
-                <img src="https://via.placeholder.com/200x150" alt="Peace Lily">
-                <p>The Peace Lily is a beautiful, low-light plant known for its lush foliage and elegant white blooms.</p>
+                <h3>ZZ Plant - $12.00</h3>
+                <img src="https://via.placeholder.com/200x150" alt="ZZ Plant">
+                <p>The ZZ Plant is virtually indestructible and perfect for beginners, thriving in low light with minimal water.</p>
                 <form action="cart.html" method="post">
-                    <label for="quantity-peace">Quantity (Max 5):</label>
-                    <input type="number" id="quantity-peace" name="quantity" min="1" max="5" required>
-
-                    <label for="shipping-peace">Shipping:</label>
-                    <select id="shipping-peace" name="shipping">
+                    <label for="quantity-zz">Quantity (Max 5):</label>
+                    <input type="number" id="quantity-zz" name="quantity" min="1" max="5" required>
+                    <label for="shipping-zz">Shipping:</label>
+                    <select id="shipping-zz" name="shipping">
                         <option value="free">Free (Standard Shipping)</option>
                         <option value="expedited">Expedited - $5.00</option>
                         <option value="overnight">Overnight - $15.00</option>
                     </select>
-
                     <button type="submit">Add to Cart</button>
                 </form>
             </div>
+
+            <!-- Prayer Plant Product Item -->
             <div class="product-item">
-                <h3>Peace Lily - $9.00</h3>
-                <img src="https://via.placeholder.com/200x150" alt="Peace Lily">
-                <p>The Peace Lily is a beautiful, low-light plant known for its lush foliage and elegant white blooms.</p>
+                <h3>Prayer Plant - $10.00</h3>
+                <img src="https://via.placeholder.com/200x150" alt="Prayer Plant">
+                <p>The Prayer Plant’s leaves fold up at night, creating a unique "praying" effect, and enjoys high humidity.</p>
                 <form action="cart.html" method="post">
-                    <label for="quantity-peace">Quantity (Max 5):</label>
-                    <input type="number" id="quantity-peace" name="quantity" min="1" max="5" required>
-
-                    <label for="shipping-peace">Shipping:</label>
-                    <select id="shipping-peace" name="shipping">
+                    <label for="quantity-prayer">Quantity (Max 5):</label>
+                    <input type="number" id="quantity-prayer" name="quantity" min="1" max="5" required>
+                    <label for="shipping-prayer">Shipping:</label>
+                    <select id="shipping-prayer" name="shipping">
                         <option value="free">Free (Standard Shipping)</option>
                         <option value="expedited">Expedited - $5.00</option>
                         <option value="overnight">Overnight - $15.00</option>
                     </select>
-
                     <button type="submit">Add to Cart</button>
                 </form>
             </div>
-
-
-            <!-- Add similar product blocks for remaining plants -->
         </div>
     </main>
 </body>
 </html>
-    
+
        
