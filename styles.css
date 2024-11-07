@@ -533,17 +533,6 @@ button {
 button:hover {
     background-color: #6b8c78; /* Slightly darker green on hover */
 }
-/* Boxed Section Headers with Dark Green Background */
-.section-header {
-    background-color: #4d665e; /* Darker green */
-    color: #fff;
-    padding: 15px 20px;
-    border-radius: 8px;
-    text-align: center;
-    margin: 20px auto;
-    max-width: 800px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-}
 
 .section-header h2 {
     margin: 0;
