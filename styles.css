@@ -626,4 +626,10 @@ button:hover {
 .cta-button:hover {
     background-color: #6b8c78; /* Slightly lighter green on hover */
 }
+.slideshow-container {
+    width: 100%; /* or a specific pixel value */
+    height: 400px; /* adjust to the desired height */
+    overflow: hidden; /* Hides any part of the image that exceeds the container */
+    position: relative;
+}
 
